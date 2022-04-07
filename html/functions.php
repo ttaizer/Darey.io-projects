@@ -2,7 +2,7 @@
 session_start();
 
 // connect to database
-$db = mysqli_connect('mysql.tooling.svc.cluster.local', 'web2', 'web2', 'tooling');
+$db = mysqli_connect('mysql.tooling.svc.cluster.local', 'web3', 'web3', 'tooling');
 
 // Check connection
 // if (mysqli_connect_errno()) {
